@@ -41,6 +41,18 @@ Designed to be easily integrated with multiple camera streams across large indus
 * IDE: Use of VSCode as the Integrated Development Environment for coding and debugging.
 * Additional Dependencies: All required libraries are listed in requirements.txt (ultralytics, opencv-python, pygame).
 
+## Installation and Setup
+Due to file size, the trained model weights (best.pt) are not stored on GitHub. Your project will not run without this file.
+
+* Download the Model File :
+Navigate to the following dedicated Google Drive link to download the best.pt file: [https://drive.google.com/file/d/12ZK2Ndda1LyzizvyYDbDIXKZJcGA4S9N/view?usp=sharing]
+
+* Place the File : Copy the downloaded best.pt file.
+
+* Paste the file directly into the root directory of this project (it must sit next to main.py).
+
+* Install Dependencies : 
+Ensure all necessary libraries are installed:
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
@@ -92,7 +104,7 @@ The framework's output provides real-time, categorical compliance feedback by cl
 ![Helmet Detection](img/h2_detect.jpeg)
 
 #### Output5 - Helmet and Mask Detection
-![Helmet and Mask Detection](img/helmet_mask_detect.jpeg)
+![Helmet and Mask Detection](img/helmet_and_mask_detect.jpeg)
 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
